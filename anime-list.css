@@ -1,0 +1,41 @@
+/* ----- General Styling ----- */
+.header {
+  height: 50px;
+}
+
+.list-container {
+  border: none;
+}
+
+
+/* ----- Sidebar Styling ----- */
+/* Quick Add */
+.list-menu-float > .quick-add {
+  display: none;
+}
+/* Export */
+.list-menu-float > .export {
+  display: none;
+}
+/* Logout */
+.list-menu-float .logout {
+  display: none;
+}
+/* Settings */
+.list-menu-float > .setting {
+  display: none;
+}
+
+
+/* ----- Status Bar ----- */
+/* All Anime status */
+.status-menu > .all_anime {
+  display: none !important;
+}
+
+
+/* ----- List Header Bar ----- */
+/* Stats and Filters */
+.list-block .stats {
+  display: none;
+}

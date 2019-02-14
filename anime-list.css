@@ -39,3 +39,7 @@
 .list-block .stats {
   display: none;
 }
+
+.list-block .list-status-title {
+  background-color: #7300e6;
+}

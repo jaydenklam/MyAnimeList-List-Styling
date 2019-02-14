@@ -33,8 +33,9 @@
   display: none !important;
 }
 
+/* Current Status Underline */
 .status-menu .status-button::after {
-  background-color: #7300e6;
+  background-color: #7300e6 !important;
 }
 
 
@@ -44,6 +45,7 @@
   display: none;
 }
 
+/* Title Bar */
 .list-block .list-status-title {
   background-color: #7300e6;
 }

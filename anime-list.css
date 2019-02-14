@@ -33,6 +33,10 @@
   display: none !important;
 }
 
+.status-menu .status-button::after {
+  background-color: #7300e6;
+}
+
 
 /* ----- List Header Bar ----- */
 /* Stats and Filters */

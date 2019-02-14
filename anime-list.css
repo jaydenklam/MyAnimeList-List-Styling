@@ -1,10 +1,15 @@
 /* ----- General Styling ----- */
 .header {
-  height: 50px;
+  display: none;
+}
+
+.list-menu-float {
+  margin-top: 50px;
 }
 
 .list-container {
   border: none;
+  margin-top: 50px;
 }
 
 

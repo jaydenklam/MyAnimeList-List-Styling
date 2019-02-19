@@ -1,16 +1,25 @@
 /* ----- General Styling ----- */
+/* Header block */
 .header {
   display: none;
 }
 
+/* Sidebar */
 .list-menu-float {
   margin-top: 50px;
 }
 
+/* List Container */
 .list-container {
   border: none;
   margin-top: 50px;
 }
+
+/* Footer block */
+.footer {
+  background-color: #7300e6 !important;
+}
+
 
 
 /* ----- Sidebar Styling ----- */
@@ -32,10 +41,21 @@
 }
 
 
+
 /* ----- Status Bar ----- */
 /* All Anime status */
 .status-menu > .all_anime {
   display: none !important;
+}
+
+/* Dropped status */
+.status-menu > .dropped {
+  display: none !important;
+}
+
+/* Search Bar */
+.status-menu > .search-container {
+  display: none! important;
 }
 
 /* Current Status Underline */
@@ -44,13 +64,31 @@
 }
 
 
+
 /* ----- List Header Bar ----- */
 /* Stats and Filters */
 .list-block .stats {
   display: none;
 }
 
-/* Title Bar */
+
+
+/* ----- List Styling ----- */
+/* Anime Title column header */
+.list-table .list-table-header > .title {
+  text-align: center !important;
+}
+
+/* Anime Image column */
+.list-table .list-table-data .data.image .image {
+  height: 85px;
+  width: 60px;
+}
+
+
+
+/* ----- Title Bar ----- */
+/* Currently Watching title bar */
 .list-block .list-status-title {
   background-color: #7300e6;
 }
